@@ -7,7 +7,7 @@ Lets say I have a backend service running locally on port `5000` an I want Nginx
 A very basic config-file would look like this:
 
 ```nginx
-server{
+server {
     server_name myhostname.com;
     location /backend/service {
         proxy_pass http://localhost:5000;
