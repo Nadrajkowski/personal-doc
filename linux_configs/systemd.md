@@ -1,6 +1,6 @@
 # systemd
 
-## docker-comppse service
+## docker-compose service
 
 ### Configuration
 
