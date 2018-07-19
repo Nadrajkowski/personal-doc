@@ -30,7 +30,7 @@ Replace **user** in both `User=user` and all paths (because my `docker-compose.y
 
 
 
-It's importent to note that your path to the docker-compse binary may vary. I tested this exect on **Ubuntu 17.10.1 anf 18.04** while installing **docker-compose** with by executing `sudo apt install docker-compose`. This resultes in my case in the path `/usr/bin/docker-compose` but I've also seen `/usr/local/bin/docker-compose` so be sure to check that.
+It's importent to note that your path to the docker-compse binary may vary. I tested this exect on **Ubuntu 17.10.1 and 18.04** while installing **docker-compose** with by executing `sudo apt install docker-compose`. This resultes in my case in the path `/usr/bin/docker-compose` but I've also seen `/usr/local/bin/docker-compose` so be sure to check that.
 
 **ATTENTION: Do not use the `-d` flag to daemonize the `docker-compose` execution. This will result in systemd stopping the service.**
 
